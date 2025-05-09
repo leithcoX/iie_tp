@@ -1,0 +1,36 @@
+Row	Description	Part	References	Value	Footprint	Quantity Per PCB	Status	Datasheet	Sim.Pins	Sim.Device	Sim.Library	Sim.Name
+1	Arduino UNO Microcontroller Module, release 3	Arduino_UNO_R3	A1	Arduino_UNO_R3	Arduino_UNO_R3	1	 	https://www.arduino.cc/en/Main/arduinoBoardUno				
+2	Unpolarized capacitor	C	C2	10n	C_Disc_D7.0mm_W2.5mm_P5.00mm	1	 	~				
+3	Polarized capacitor, small US symbol	C_Polarized_Small_US	C4	47n		1	 	~				
+4	Polarized capacitor, small US symbol	C_Polarized_Small_US	C1 C3 C5	10u	CP_Radial_D10.0mm_P5.00mm_P7.50mm	3	 	~				
+5	Polarized capacitor, small US symbol	C_Polarized_Small_US	C8	C_Polarized_Small_US		1	 	~				
+6	Unpolarized capacitor, small symbol	C_Small	C6 C7	C_Small		2	 	~				
+7	Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve	AudioJack2_Ground	J8	AudioJack2_Ground		1	 	~				
+8	Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)	Conn_01x01	J3 J4	Conn_01x01	PinSocket_1x01_P1.27mm_Vertical	2	 	~				
+9	Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)	Conn_01x02	J2 J5 J6	Conn_01x02	PhoenixContact_SPT_2.5_2-H-5.0_1x02_P5.0mm_Horizontal	3	 	~				
+10	Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)	Conn_01x03	J1 J7	Conn_01x03	PinHeader_1x03_P1.00mm_Vertical	2	 	~				
+11	Speaker	Speaker	LS1	Speaker		1	 	~				
+12	Microphone	Microphone	MK1	Mic	POM-2244P-C3310-2-R	1	 	~				
+13	Resistor, US symbol	R_US	R5 R6 R7 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22 R23 R24 R26	2k2	R_Axial_Power_L25.0mm_W6.4mm_P27.94mm	21	 	~				
+14	Resistor, US symbol	R_US	R1	4k7	R_Axial_Power_L25.0mm_W6.4mm_P27.94mm	1	 	~				
+15	Resistor, US symbol	R_US	R4	8k2	R_Axial_Power_L25.0mm_W6.4mm_P27.94mm	1	 	~				
+16	Potentiometer, US symbol	R_Potentiometer_US	R2 R3 R25	100k	Potentiometer_Bourns_3296W_Vertical	3	 	~				
+17	Operational amplifier, single	OPAMP	U1	${SIM.PARAMS}		1	 	https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits	1=in+ 2=in- 3=vcc 4=vee 5=out	SUBCKT	/usr/share/kicad/symbols/Simulation_SPICE.sp	kicad_builtin_opamp
+18	Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8	LM386	U2	LM386		1	 	http://www.ti.com/lit/ds/symlink/lm386.pdf				
+
+
+
+
+
+Project info:
+Schematic:	iie_tp
+Variant:	default
+Revision:	
+Date:	2025-05-09_02-13-01
+KiCad Version:	9.0.1+1
+Statistics:
+Component Groups:	18
+Component Count:	47
+Fitted Components:	47
+Number of PCBs:	1
+Total Components:	47
